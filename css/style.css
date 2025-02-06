@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  background: url("../assets/image/bg-img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: white;
+  opacity: 0.9;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+
+label {
+  font-size: 14px;
+  color: white;
+  opacity: 0.9;
+  font-weight: lighter;
+  margin-top: 25px;
+  margin-bottom: -20px;
+  display: block;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  box-shadow: 0 0 5px rgba(1, 13, 21, 0.5);
+}
+
+button {
+  background-color: #069c06;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #026b02;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+#result {
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: lighter;
+  color: white;
+  margin: 20px 0;
+}
+
+#clearBtn {
+  background-color: #222121;
+}
+
+#clearBtn:hover {
+  background-color: #101010;
+}
+
+#paraBmiClass a {
+  text-decoration: none;
+  color: white;
+}
+
+#paraBmiClass a:hover {
+  text-decoration: underline;
+}

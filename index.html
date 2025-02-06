@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitBuddy</title>
+
+    <meta name="description" content="FitBuddy is a user-friendly BMI calculator that helps individuals monitor their body mass index and stay on track with a healthy lifestyle, making it easier to achieve and maintain fitness goals.">
+    <meta name="keywords" content="BMI Calculator, FitBuddy, Body Mass Index, Healthy Lifestyle, Fitness Goals, Weight Management">
+    <meta name="robots" content="index, follow">
+
+    <link rel="shortcut icon" href="assets/favicon/bmi-icon.png" type="image/x-icon">
+
+    <link rel="next" href="page/bmiclassification.html">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>FitBuddy</h1>
+        <p>FitBuddy is a user-friendly BMI calculator that helps individuals monitor their body mass index and stay on track with a healthy lifestyle, making it easier to achieve and maintain fitness goals.</p>
+        <label for="heightInput">Enter Your Height (in CM): </label><br>
+        <input type="number" min="0" id="heightInput"><br>
+        <label for="weightInput">Enter Your Weight (in KG): </label><br>
+        <input type="number" min="0" id="weightInput"><br>
+        <button id="calculateBtn">Calculate BMI</button>
+        <p id="result"></p>
+        <button id="clearBtn">Clear</button>
+        <p id="paraBmiClass">Learn more about <a href="page/bmiclassification.html">BMI Classification</a></p>
+    </div>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>

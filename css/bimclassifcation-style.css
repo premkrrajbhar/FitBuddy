@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  background-image: url("../assets/image/bg-img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 80%;
+  max-width: 900px;
+}
+
+.container #bmiDes {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #272626;
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#paraFitBuddy {
+  font-size: 14px;
+  color: white;
+}
+
+#paraFitBuddy a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+#paraFitBuddy a:hover {
+  text-decoration: underline;
+}
