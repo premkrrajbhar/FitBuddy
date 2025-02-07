@@ -5,17 +5,24 @@ let result = document.getElementById("result");
 let clearBtn = document.getElementById("clearBtn");
 
 calculateBtn.addEventListener("click", () => {
-  let heightVal = Number(heightInput.value);
-  let weightVal = Number(weightInput.value);
+  let heightVal = heightInput.value;
+  let weightVal = weightInput.value;
 
-  let heightInMeter = heightVal / 100;
-
-  if (heightInMeter == "" || weightVal == "") {
+  if (heightVal == "" || weightVal == "") {
     result.innerText = "Please fill all input fields";
     return;
   }
 
-  let calBmi = (weightVal / (heightInMeter * heightInMeter)).toFixed(2);
+  let heightInMeter = parseFloat(heightVal) / 100;
+  let weight = parseFloat(weightVal);
+
+  if (heightInMeter <= 0 || weight <= 0) {
+    result.innerText =
+      "Please enter valid positive numbers for weight and height";
+    return;
+  }
+
+  let calBmi = (weight / (heightInMeter * heightInMeter)).toFixed(2);
 
   if (calBmi < 16) {
     result.innerHTML = `Severe Thinness: ${calBmi}`;
