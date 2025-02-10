@@ -32,6 +32,30 @@ FitBuddy is a web application designed to help users calculate their Body Mass I
 - **Clear Results**: Click the "Clear" button to reset all input fields and results.
 - **Learn About BMI Classification**: Navigate to the "BMI Classification" page to understand what your BMI means and see the different categories.
 
+## 📂 Project Structure
+
+```
+├── README.md
+├── assets/
+│   ├── favicon/
+│   │   └── bmi-icon.png
+│   ├── image/
+│   │   ├── bg-img1.jpg
+│   │   └── bg-img2.jpg
+│   └── screenshot/
+│       ├── screenshot1.jpg
+│       └── screenshot2.jpg
+├── css/
+│   ├── bimclassifcation-style.css
+│   └── style.css
+├── index.html
+├── page/
+│   └── bmiclassification.html
+└── script/
+    └── script.js
+
+```
+
 ## 📥 How to Run Locally
 
 - Step 1: Clone the repository:
